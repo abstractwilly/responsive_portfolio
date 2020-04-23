@@ -131,7 +131,6 @@ header .container {
   font-family: 'Montserrat', sans-serif; */
   font-size: 1.2em;
   padding: 8vmin 8vmin 0vmin 10vmin;
-  text-align: justify;
 }
 
 .section-1 .row .col-md-4 .col-12 {
@@ -153,7 +152,6 @@ footer .row .col-md-6 .contact-1 h1 {
 
 footer .row .col-md-6 .contact-1 p {
   padding: 3vmin;
-  text-align: justify;
 }
 
 footer .row .col-md-6 .contact-2 h1 {
