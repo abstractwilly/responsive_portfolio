@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+header a {
+  font-size: 1.2em;
+  color: black;
+}
+
+header {
+  background: whitesmoke;
+  padding: 3.5vmin;
+}
+
+header .navbar-brand {
+  padding-left: 20vmin;
+  color: black;
+  font-size: 3.2vmin;
+  font-family: "Vidaloka", serif;
+  font-family: "Monoton", cursive;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 1.5em;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header .nav-link:hover {
+  color: red;
+}
+
+.border-radius {
+  width: 50vmin;
+  border-radius: 50%;
+}
+
+/* 
+/* 
+header .row .col-md-6 img {
+  width: 52%;
+} */
+
+
+
+header .row .col-md-6:last-child {
+  position: relative;
+}
+
+header .row .col-md-6 .box {
+  box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10vmin 15vmin 2vmin 10vmin;
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  right: 30vmin;
+}
+
+header .row .col-md-6 .box h1 {
+  font-size: 8vmin;
+  font-family: "Vidaloka", serif;
+  font-family: "Bangers", cursive;
+}
+
+header .row .col-md-6 .box a {
+  border-radius: 50px;
+  padding: 0.45em 2em;
+  font-weight: bold;
+}
+
+header .row .col-md-6 .box p {
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 1.5em;
+}
+
+header .container {
+  padding: 12vmin;
+  padding-left: 15vmin;
+  font-weight: initial;
+  font-style: italic;
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+    align-content: center;
+  }
+
+
+  header .row .col-md-6 .box {
+    position: initial;
+    width: initial;
+    height: initial;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+}
+
+.section-1 {
+  background: black;
+  padding: 10vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 h1 {
+  color: #dd1818;
+  padding-top: 8vmin;
+  font-size: 11vmin;
+  font-family: "Bangers", sans-serif;
+  text-align: right;
+  padding: 8vmin 8vmin 0 10vmin;
+}
+
+.section-1 .row .col-md-6 p {
+  color: lightgray;
+  /* font-family: 'Courier New', Courier, monospace;
+  font-family: 'Vidaloka', serif;
+  font-family: 'Montserrat', sans-serif; */
+  font-size: 1.2em;
+  padding: 8vmin 8vmin 0vmin 10vmin;
+  text-align: justify;
+}
+
+.section-1 .row .col-md-4 .col-12 {
+  display: inline-block;
+  padding: 0vmin;
+}
+
+footer {
+  background: whitesmoke;
+  padding: 10vmin 15vmin;
+}
+
+footer .row .col-md-6 .contact-1 h1 {
+  padding: 1.5vmin;
+  color: darkslateblue;
+  font-weight: bold;
+  font-size: 5vmin;
+}
+
+footer .row .col-md-6 .contact-1 p {
+  padding: 3vmin;
+  text-align: justify;
+}
+
+footer .row .col-md-6 .contact-2 h1 {
+  padding: 1.5vmin;
+  color: darkslateblue;
+  font-weight: bold;
+  font-size: 5vmin;
+}
+
+footer .row .col-md-6 .contact-2 p {
+  padding: 2.2vmin;
+}
+
+.fa {
+  padding: 3vmin;
+  height: 5vmin;
+  width: 5vmin;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
